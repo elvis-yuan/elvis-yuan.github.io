@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<title>Codeply preview</title>
+	<base target="_self">
+	<meta content="Flexbox layout for Bootstrap 4 with a fixed navbar, sidebar, header full height and remaining width content. This is a one page 2-column layout with navbar and sidebar that use the affix to become sticky after scroll." name="description">
+	<meta name="google">
+	<link href="/images/cp_ico.png" rel="shortcut icon">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+	<link href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" rel="stylesheet">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet">
+	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<link href="styles.css" rel="stylesheet">
+</head>
+<body data-offset="50" data-spy="scroll" data-target=".navbar">
+	<div class="jumbotron mb-0 d-flex align-items-center flex-column justify-content-center min-100" id="header">
+		<div class="background-image d-flex align-items-center flex-column justify-content-center min-100" style="background-image: url(https://images.pexels.com/photos/48606/pexels-photo-48606.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);">
+			<div class="jumbo-content-area d-flex align-items-center flex-column justify-content-center">
+				<h1 class="display-2 text-white">Elvis Yuan</h1>
+				<h3 class="text-white">Full-Stack Web Developer</h3>
+			</div>
+		</div>
+	</div>
+	<nav class="navbar navbar-light navbar-expand-lg" data-offset-top="197" data-spy="affix">
+		<div class="container">
+			<span class="scroll"><a class="navbar-brand" href="#header">Home</a></span> <button aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#myNavbar" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+			<div class="collapse navbar-collapse justify-content-end scroll" id="myNavbar">
+				<ul class="nav navbar-nav ml-auto scroll">
+					<li class="nav-item">
+						<a class="nav-link active pl-10" href="#sec1">Profile</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link pl-10" href="#sec2">Skills</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link pl-10" href="#sec3">Projects</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link pl-10" href="#sec4">Contact</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<main class="">
+		<div class="">
+			<div class="container-fluid">
+				<section class="profile container-fluid d-flex align-items-center flex-column justify-content-center">
+					<span class="anchor" id="sec1"></span>
+					<h3 class="title">Profile</h3>
+					<img class="profile-img" src="https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/20228858_667431720122384_5988302322063973535_n.jpg?_nc_cat=0&oh=34375b7cec8f810ee024dda5ecaa6661&oe=5BADB591">
+					<hr>
+					<p class="">Hello! I'm Elvis. I might look like a wizard, but I'm actually a web developer.</p>
+					<p>I started web development because I couldn't find a website to help me track progress for Fortnite Missions. That is when I decided that I should just code it myself. It didn't take long before I finished my first web page, but I always felt that it could be better. I continued to learn different languages and technologies to improve my development skills. What started as a hobby has become a career option.</p>
+				</section>
+			</div>
+			<div class="container-fluid bg-grey">
+				<section class="skills d-flex align-items-center flex-column justify-content-center">
+					<span class="anchor" id="sec2"></span>
+					<h3 class="title">Skills</h3>
+					<hr>
+					<p>These are some languages and technologies I have worked with</p>
+					<div>
+						<ul class="grid">
+							<li>
+								<i class="fab fa-css3-alt fa-4x"></i>
+								<h4>CSS 3</h4>
+							</li>
+							<li>
+								<i aria-hidden="true" class="fa fa-html5 fa-4x"></i>
+								<h4>HTML 5</h4>
+							</li>
+							<li>
+								<i class="fab fa-js-square fa-4x"></i>
+								<h4>JavaScript / JQuery</h4>
+							</li>
+							<li>
+								<i class="fas fa-database fa-4x"></i>
+								<h4>MongoDB</h4>
+							</li>
+							<li>
+								<i class="fab fa-node-js fa-4x"></i>
+								<h4>NodeJs</h4>
+							</li>
+							<li>
+								<i class="fab fa-react fa-4x"></i>
+								<h4>React</h4>
+							</li>
+							<li>
+								<i class="fab fa-git-square fa-4x"></i>
+								<h4>Git</h4>
+							</li>
+						</ul>
+					</div>
+				</section>
+			</div>
+			<div class="container-fluid">
+				<section class="projects d-flex align-items-center flex-column justify-content-center">
+					<span class="anchor" id="sec3"></span>
+					<h3 class="title">Previous Projects</h3>
+				<hr>
+					<a href="https://elvisimageshare.herokuapp.com/">
+						<h3 class="title">ImageShare</h3></a>
+					<img class="img-responsive" src="https://res.cloudinary.com/divtvpzuc/image/upload/v1530772106/imageshare.png">
+					<p>ImageShare is an image sharing platform where users can share images and post comments. ImageShare is a full-stack website that was orginally part of a project that I worked on during my web development bootcamp course. I altered the code and made some improvements to the orginal project. It incorporates the majority of languages and technologies that I know how to use. It was deployed onto Heroku using Git. It has RESTful routing, uses Mlab for its database and cloudinary for image hosting.</p>
+				</section>
+			</div>
+			<div class="container-fluid bg-grey">
+				<section class="contact d-flex align-items-center flex-column justify-content-center">
+					<span class="anchor" id="sec4"></span>
+					<h3 class="title">Contact</h3>
+				<hr>
+					<p>Contact me by email at anytime: YuanElvis@gmail.com</p>
+				</section>
+			</div>
+		</div>
+	</main>
+	<footer class="bg-dark text-white py-4">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4">
+				</div>
+				<div class="col-sm-4">
+					<ul class="nav justify-content-center">
+					</ul>
+				</div>
+				<div class="col-sm-4 text-right small">
+					<p>© Elvis Yuan</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!--scripts loaded here-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+	</script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/popper.js/1.13.0/umd/popper.min.js">
+	</script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js">
+	</script>
+	<script src="https://rawgit.com/bassjobsen/affix/master/assets/js/affix.js">
+	</script>
+	<script src="js/index.js" type="text/javascript"></script>
+</body>
+</html>
