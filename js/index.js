@@ -29,6 +29,6 @@ $(document).ready(function() {
 		'opacity': '1'
 	}, 1000);
 	$(window).scroll(function() {
-		$(".jumbo-content-area").css("opacity", 1 - $(window).scrollTop() / 300);
+		$(".jumbo-content-area").css("opacity", 1 - $(window).scrollTop() / 400);
 	});
 });
