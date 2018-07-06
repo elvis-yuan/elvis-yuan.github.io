@@ -60,7 +60,10 @@ section p {
   .projects img {
     min-width: 350px;
     min-height: auto;
-  }   
+  }
+  .skills {
+    padding: 50px 0;
+  }
 }
 
 /*Jumbotron styling*/
@@ -80,7 +83,6 @@ section p {
 
 .jumbo-content-area {
   opacity: 0;
-  margin-top: 100px;
   animation: 1s slidefade 1s forwards;
 }
 
@@ -207,6 +209,18 @@ width: 55%;
 padding-bottom: 25px;
 }
 
+.projects a {
+  padding-top: 10px;
+}
+
 p .small {
   padding-top: 20px;
+}
+
+.black-card {
+  background-color: rgba(0,0,0,.25)
+}
+
+h4 {
+padding-bottom: 8px;
 }
