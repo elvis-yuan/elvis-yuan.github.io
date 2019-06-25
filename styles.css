@@ -31,7 +31,7 @@ nav {
 }
 
 .bg-grey {
-  background-color: #2E2C2C;
+  background-color: #2e2c2c;
   color: white;
 }
 
@@ -53,7 +53,7 @@ section p {
 @media (max-width: 800px) {
   section {
     padding: 50px 0;
-  }  
+  }
   .profile {
     padding-top: 60;
   }
@@ -118,28 +118,28 @@ section {
 }
 
 .jumbo-content-area h1 {
-	font: bold 60px "Open Sans", sans-serif;
-	margin-bottom: 15px;
+  font: bold 60px "Open Sans", sans-serif;
+  margin-bottom: 15px;
   font-weight: 500;
 }
 
 .jumbo-content-area h3 {
-	font: normal 28px "Open Sans", sans-serif;
-	margin-bottom: 40px;
+  font: normal 28px "Open Sans", sans-serif;
+  margin-bottom: 40px;
 }
 
 @media (max-width: 800px) {
-	.jumbo-content-area {
-		min-height: 600px;
-	}
+  .jumbo-content-area {
+    min-height: 600px;
+  }
 
-	.jumbo-content-area h1 {
-		font-size: 48px;
-	}
+  .jumbo-content-area h1 {
+    font-size: 48px;
+  }
 
-	.jumbo-content-area h3 {
-		font-size: 24px;
-	}
+  .jumbo-content-area h3 {
+    font-size: 24px;
+  }
 }
 
 .grid {
@@ -166,7 +166,6 @@ hr {
 }
 
 .profile-img {
-  border-radius: 50%;
   width: 250px;
   height: auto;
   margin-bottom: 30px;
@@ -175,7 +174,7 @@ hr {
 /*Skills Styling*/
 
 .skills .grid li {
-  flex-basis: 33%;
+  flex-basis: 20%;
   text-align: center;
   max-height: 150px;
 }
@@ -204,9 +203,9 @@ hr {
 }
 
 .projects img {
-height: 55%;
-width: 55%;
-padding-bottom: 25px;
+  height: 55%;
+  width: 55%;
+  padding-bottom: 25px;
 }
 
 .projects a {
@@ -218,9 +217,18 @@ p .small {
 }
 
 .black-card {
-  background-color: rgba(0,0,0,.25)
+  background-color: rgba(0, 0, 0, 0.25);
 }
 
 h4 {
-padding-bottom: 8px;
+  padding-bottom: 8px;
+}
+
+.devicon {
+  height: 64px;
+  width: 64px;
+}
+
+.projects img.small-image {
+  width: 640px;
 }
