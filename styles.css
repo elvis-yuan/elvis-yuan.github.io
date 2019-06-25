@@ -38,14 +38,14 @@ nav {
 section h3.title {
   text-transform: capitalize;
   font: bold 32px "Open Sans", sans-serif;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   text-align: center;
 }
 
 section p {
   max-width: 775px;
   line-height: 2;
-  padding: 0 20px;
+  padding: 0 10px;
   margin-bottom: 30px;
   text-align: center;
 }
@@ -231,4 +231,35 @@ h4 {
 
 .projects img.small-image {
   width: 640px;
+}
+
+.personal-links {
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+.personal-links a {
+  text-decoration: none;
+}
+
+.personal-icon {
+  text-decoration: none;
+  color: rgb(151, 150, 150);
+  font-size: 64px;
+  margin: 0 10px;
+}
+
+.personal-icon:hover {
+  color: white;
+}
+
+.personal-link {
+  text-decoration: none;
+  color: rgb(151, 150, 150);
+  margin: 0 10px;
+  font-size: 60px;
+}
+
+.personal-link:hover {
+  color: white;
 }
