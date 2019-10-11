@@ -235,11 +235,12 @@ h4 {
 
 .personal-links {
   text-decoration: none;
-  margin-bottom: 10px;
+  margin-bottom: 40px;
 }
 
 .personal-links a {
   text-decoration: none;
+  margin: 0 20px;
 }
 
 .personal-icon {
