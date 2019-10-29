@@ -14,16 +14,15 @@ document.addEventListener("DOMContentLoaded", () => {
     offset: 80
   });
   //smooth scrolling on all links inside the navbar
-  $(".scroll a").on("click", function(event) {
+  $(".scroll a").on("click", function (event) {
     if (this.hash !== "") {
       event.preventDefault();
       var hash = this.hash;
-      $("html, body").animate(
-        {
+      $("html, body").animate({
           scrollTop: $(hash).offset().top
         },
         800,
-        function() {
+        function () {
           window.location.hash = hash;
         }
       );
@@ -32,13 +31,12 @@ document.addEventListener("DOMContentLoaded", () => {
   $(".jumbo-content-area")
     .first()
     .delay(200)
-    .animate(
-      {
+    .animate({
         opacity: "1"
       },
       1000
     );
-  $(window).scroll(function() {
+  $(window).scroll(function () {
     $(".jumbo-content-area").css("opacity", 1 - $(window).scrollTop() / 400);
   });
 });
